@@ -2,21 +2,7 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To run this project locally please type in the command
 
 ```bash
 npm run dev
@@ -33,6 +19,19 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Todo
+1. Add filters
+I didn't have time to work on filters but could get something up and running in an hour or so!
+
+2. Aria labels and focus
+This site isn't very accessible or responsive. I've implemented only the bare minumum
+
+3. Type safety
+Since I'm completely new to svelte i didn't want to spend time wrapping my head around how it would work with TypeScript although now I understand that it's pretty standard. Future work would entail re-writing most of the app in TS.
+
+4. Tests
+For an app this small I didn't want to spend time writing tests, though it seems like the built in vitest is pretty awesome in that regard
+
+5. Deploy
+Could have hosted it on vercel or something.
